@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Menlo, monospace;
+}
+#root{
+  background-color: hotpink;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background: #fff;
+  padding: 32px;
+  border-radius: 8px;
+  width: 400px;
+}
+.person {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;}
+
+  img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 8px;
+  }
+ .btn {
+    background: pink;
+    border: none;
+    padding: 16px 20px;
+    width: 100%;
+    margin-top: 16px;}
+button
+    {
+      background: pink;
+      border: none;
+    }
